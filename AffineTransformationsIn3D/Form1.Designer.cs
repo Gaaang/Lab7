@@ -80,6 +80,8 @@
             this.numericUpDownAngle = new System.Windows.Forms.NumericUpDown();
             this.numericUpDownPoint2Z = new System.Windows.Forms.NumericUpDown();
             this.button7 = new System.Windows.Forms.Button();
+            this.buttonSave = new System.Windows.Forms.Button();
+            this.button9 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -179,47 +181,47 @@
             // 
             // sceneView3
             // 
-            this.sceneView3.Camera = null;
             this.sceneView3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.sceneView3.Drawable = null;
             this.sceneView3.Location = new System.Drawing.Point(3, 315);
+            this.sceneView3.Drawable = null;
             this.sceneView3.Name = "sceneView3";
             this.sceneView3.Size = new System.Drawing.Size(353, 281);
             this.sceneView3.TabIndex = 2;
             this.sceneView3.Text = "sceneView3";
+            this.sceneView3.Camera = null;
             // 
             // sceneView4
             // 
-            this.sceneView4.Camera = null;
             this.sceneView4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.sceneView4.Drawable = null;
             this.sceneView4.Location = new System.Drawing.Point(362, 315);
+            this.sceneView4.Drawable = null;
             this.sceneView4.Name = "sceneView4";
             this.sceneView4.Size = new System.Drawing.Size(353, 281);
             this.sceneView4.TabIndex = 3;
             this.sceneView4.Text = "sceneView4";
+            this.sceneView4.Camera = null;
             // 
             // sceneView1
             // 
-            this.sceneView1.Camera = null;
             this.sceneView1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.sceneView1.Drawable = null;
             this.sceneView1.Location = new System.Drawing.Point(3, 16);
+            this.sceneView1.Drawable = null;
             this.sceneView1.Name = "sceneView1";
             this.sceneView1.Size = new System.Drawing.Size(353, 280);
             this.sceneView1.TabIndex = 0;
             this.sceneView1.Text = "sceneView1";
+            this.sceneView1.Camera = null;
             // 
             // sceneView2
             // 
-            this.sceneView2.Camera = null;
             this.sceneView2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.sceneView2.Drawable = null;
             this.sceneView2.Location = new System.Drawing.Point(362, 16);
+            this.sceneView2.Drawable = null;
             this.sceneView2.Name = "sceneView2";
             this.sceneView2.Size = new System.Drawing.Size(353, 280);
             this.sceneView2.TabIndex = 1;
             this.sceneView2.Text = "sceneView2";
+            this.sceneView2.Camera = null;
             // 
             // label1
             // 
@@ -280,6 +282,8 @@
             this.tableLayoutPanel2.Controls.Add(this.numericUpDownAngle, 4, 9);
             this.tableLayoutPanel2.Controls.Add(this.numericUpDownPoint2Z, 3, 8);
             this.tableLayoutPanel2.Controls.Add(this.button7, 4, 11);
+            this.tableLayoutPanel2.Controls.Add(this.buttonSave, 5, 12);
+            this.tableLayoutPanel2.Controls.Add(this.button9, 4, 13);
             this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel2.Location = new System.Drawing.Point(0, 0);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
@@ -342,7 +346,7 @@
             0,
             0,
             65536});
-            this.numericUpDown3.Location = new System.Drawing.Point(240, 21);
+            this.numericUpDown3.Location = new System.Drawing.Point(238, 21);
             this.numericUpDown3.Maximum = new decimal(new int[] {
             10,
             0,
@@ -365,7 +369,7 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(240, 5);
+            this.label8.Location = new System.Drawing.Point(238, 5);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(17, 13);
             this.label8.TabIndex = 8;
@@ -379,7 +383,7 @@
             0,
             0,
             65536});
-            this.numericUpDown2.Location = new System.Drawing.Point(164, 21);
+            this.numericUpDown2.Location = new System.Drawing.Point(163, 21);
             this.numericUpDown2.Maximum = new decimal(new int[] {
             10,
             0,
@@ -439,7 +443,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(164, 5);
+            this.label7.Location = new System.Drawing.Point(163, 5);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(17, 13);
             this.label7.TabIndex = 7;
@@ -448,7 +452,7 @@
             // button1
             // 
             this.button1.AutoSize = true;
-            this.button1.Location = new System.Drawing.Point(316, 21);
+            this.button1.Location = new System.Drawing.Point(313, 21);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(74, 23);
             this.button1.TabIndex = 2;
@@ -496,7 +500,7 @@
             0,
             0,
             0});
-            this.numericUpDown5.Location = new System.Drawing.Point(164, 50);
+            this.numericUpDown5.Location = new System.Drawing.Point(163, 50);
             this.numericUpDown5.Maximum = new decimal(new int[] {
             180,
             0,
@@ -518,7 +522,7 @@
             0,
             0,
             0});
-            this.numericUpDown6.Location = new System.Drawing.Point(240, 50);
+            this.numericUpDown6.Location = new System.Drawing.Point(238, 50);
             this.numericUpDown6.Maximum = new decimal(new int[] {
             180,
             0,
@@ -564,7 +568,7 @@
             0,
             0,
             131072});
-            this.numericUpDown8.Location = new System.Drawing.Point(164, 79);
+            this.numericUpDown8.Location = new System.Drawing.Point(163, 79);
             this.numericUpDown8.Maximum = new decimal(new int[] {
             10,
             0,
@@ -587,7 +591,7 @@
             0,
             0,
             131072});
-            this.numericUpDown9.Location = new System.Drawing.Point(240, 79);
+            this.numericUpDown9.Location = new System.Drawing.Point(238, 79);
             this.numericUpDown9.Maximum = new decimal(new int[] {
             10,
             0,
@@ -605,7 +609,7 @@
             // button2
             // 
             this.button2.AutoSize = true;
-            this.button2.Location = new System.Drawing.Point(316, 50);
+            this.button2.Location = new System.Drawing.Point(313, 50);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(74, 23);
             this.button2.TabIndex = 2;
@@ -616,7 +620,7 @@
             // button3
             // 
             this.button3.AutoSize = true;
-            this.button3.Location = new System.Drawing.Point(316, 79);
+            this.button3.Location = new System.Drawing.Point(313, 79);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(74, 23);
             this.button3.TabIndex = 2;
@@ -639,7 +643,7 @@
             // radioButton2
             // 
             this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(164, 108);
+            this.radioButton2.Location = new System.Drawing.Point(163, 108);
             this.radioButton2.Name = "radioButton2";
             this.radioButton2.Size = new System.Drawing.Size(32, 17);
             this.radioButton2.TabIndex = 19;
@@ -649,7 +653,7 @@
             // radioButton3
             // 
             this.radioButton3.AutoSize = true;
-            this.radioButton3.Location = new System.Drawing.Point(240, 108);
+            this.radioButton3.Location = new System.Drawing.Point(238, 108);
             this.radioButton3.Name = "radioButton3";
             this.radioButton3.Size = new System.Drawing.Size(32, 17);
             this.radioButton3.TabIndex = 20;
@@ -659,7 +663,7 @@
             // button4
             // 
             this.button4.AutoSize = true;
-            this.button4.Location = new System.Drawing.Point(316, 108);
+            this.button4.Location = new System.Drawing.Point(313, 108);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(74, 23);
             this.button4.TabIndex = 21;
@@ -670,7 +674,7 @@
             // button5
             // 
             this.button5.AutoSize = true;
-            this.button5.Location = new System.Drawing.Point(316, 137);
+            this.button5.Location = new System.Drawing.Point(313, 137);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(74, 23);
             this.button5.TabIndex = 23;
@@ -687,14 +691,14 @@
             // 
             // numericUpDown11
             // 
-            this.numericUpDown11.Location = new System.Drawing.Point(164, 137);
+            this.numericUpDown11.Location = new System.Drawing.Point(163, 137);
             this.numericUpDown11.Name = "numericUpDown11";
             this.numericUpDown11.Size = new System.Drawing.Size(68, 20);
             this.numericUpDown11.TabIndex = 26;
             // 
             // numericUpDown12
             // 
-            this.numericUpDown12.Location = new System.Drawing.Point(240, 137);
+            this.numericUpDown12.Location = new System.Drawing.Point(238, 137);
             this.numericUpDown12.Name = "numericUpDown12";
             this.numericUpDown12.Size = new System.Drawing.Size(68, 20);
             this.numericUpDown12.TabIndex = 27;
@@ -712,7 +716,7 @@
             // button6
             // 
             this.button6.AutoSize = true;
-            this.button6.Location = new System.Drawing.Point(316, 166);
+            this.button6.Location = new System.Drawing.Point(313, 166);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(74, 23);
             this.button6.TabIndex = 28;
@@ -791,7 +795,7 @@
             0,
             0,
             65536});
-            this.numericUpDownPoint1Y.Location = new System.Drawing.Point(164, 195);
+            this.numericUpDownPoint1Y.Location = new System.Drawing.Point(163, 195);
             this.numericUpDownPoint1Y.Maximum = new decimal(new int[] {
             10,
             0,
@@ -837,7 +841,7 @@
             0,
             0,
             65536});
-            this.numericUpDownPoint2Y.Location = new System.Drawing.Point(164, 221);
+            this.numericUpDownPoint2Y.Location = new System.Drawing.Point(163, 221);
             this.numericUpDownPoint2Y.Maximum = new decimal(new int[] {
             10,
             0,
@@ -860,7 +864,7 @@
             0,
             0,
             65536});
-            this.numericUpDownPoint1Z.Location = new System.Drawing.Point(240, 195);
+            this.numericUpDownPoint1Z.Location = new System.Drawing.Point(238, 195);
             this.numericUpDownPoint1Z.Maximum = new decimal(new int[] {
             10,
             0,
@@ -877,7 +881,7 @@
             // 
             // numericUpDownAngle
             // 
-            this.numericUpDownAngle.Location = new System.Drawing.Point(316, 247);
+            this.numericUpDownAngle.Location = new System.Drawing.Point(313, 247);
             this.numericUpDownAngle.Name = "numericUpDownAngle";
             this.numericUpDownAngle.Size = new System.Drawing.Size(74, 20);
             this.numericUpDownAngle.TabIndex = 39;
@@ -890,7 +894,7 @@
             0,
             0,
             65536});
-            this.numericUpDownPoint2Z.Location = new System.Drawing.Point(240, 221);
+            this.numericUpDownPoint2Z.Location = new System.Drawing.Point(238, 221);
             this.numericUpDownPoint2Z.Maximum = new decimal(new int[] {
             10,
             0,
@@ -908,13 +912,35 @@
             // button7
             // 
             this.button7.AutoSize = true;
-            this.button7.Location = new System.Drawing.Point(316, 273);
+            this.button7.Location = new System.Drawing.Point(313, 273);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(75, 23);
             this.button7.TabIndex = 43;
             this.button7.Text = "Объект...";
             this.button7.UseVisualStyleBackColor = true;
             this.button7.Click += new System.EventHandler(this.ChangeModel);
+            // 
+            // buttonSave
+            // 
+            this.buttonSave.AutoSize = true;
+            this.buttonSave.Location = new System.Drawing.Point(313, 302);
+            this.buttonSave.Name = "buttonSave";
+            this.buttonSave.Size = new System.Drawing.Size(79, 23);
+            this.buttonSave.TabIndex = 45;
+            this.buttonSave.Text = "Сохранить...";
+            this.buttonSave.UseVisualStyleBackColor = true;
+            this.buttonSave.Click += new System.EventHandler(this.SaveFile);
+            // 
+            // button9
+            // 
+            this.button9.AutoSize = true;
+            this.button9.Location = new System.Drawing.Point(313, 331);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(78, 23);
+            this.button9.TabIndex = 46;
+            this.button9.Text = "Загрузить...";
+            this.button9.UseVisualStyleBackColor = true;
+            this.button9.Click += new System.EventHandler(this.LoadFile);
             // 
             // Form1
             // 
@@ -1012,6 +1038,8 @@
         private System.Windows.Forms.NumericUpDown numericUpDownAngle;
         private System.Windows.Forms.NumericUpDown numericUpDownPoint2Z;
         private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Button buttonSave;
+        private System.Windows.Forms.Button button9;
     }
 }
 

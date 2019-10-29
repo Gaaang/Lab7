@@ -20,3 +20,14 @@ C:\Users\User\Desktop\Affine-transformations-in-3D-master\AffineTransformationsI
 C:\Users\User\Desktop\Affine-transformations-in-3D-master\AffineTransformationsIn3D\obj\Debug\AffineTransformationsIn3D.csproj.CoreCompileInputs.cache
 C:\Users\User\Desktop\Affine-transformations-in-3D-master\AffineTransformationsIn3D\obj\Debug\AffineTransformationsIn3D.exe
 C:\Users\User\Desktop\Affine-transformations-in-3D-master\AffineTransformationsIn3D\obj\Debug\AffineTransformationsIn3D.pdb
+C:\Users\User\Desktop\Lab7-master\AffineTransformationsIn3D\bin\Debug\AffineTransformationsIn3D.exe.config
+C:\Users\User\Desktop\Lab7-master\AffineTransformationsIn3D\bin\Debug\AffineTransformationsIn3D.exe
+C:\Users\User\Desktop\Lab7-master\AffineTransformationsIn3D\bin\Debug\AffineTransformationsIn3D.pdb
+C:\Users\User\Desktop\Lab7-master\AffineTransformationsIn3D\obj\Debug\AffineTransformationsIn3D.csprojAssemblyReference.cache
+C:\Users\User\Desktop\Lab7-master\AffineTransformationsIn3D\obj\Debug\AffineTransformationsIn3D.Form1.resources
+C:\Users\User\Desktop\Lab7-master\AffineTransformationsIn3D\obj\Debug\AffineTransformationsIn3D.FormChangeModel.resources
+C:\Users\User\Desktop\Lab7-master\AffineTransformationsIn3D\obj\Debug\AffineTransformationsIn3D.Properties.Resources.resources
+C:\Users\User\Desktop\Lab7-master\AffineTransformationsIn3D\obj\Debug\AffineTransformationsIn3D.csproj.GenerateResource.cache
+C:\Users\User\Desktop\Lab7-master\AffineTransformationsIn3D\obj\Debug\AffineTransformationsIn3D.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Lab7-master\AffineTransformationsIn3D\obj\Debug\AffineTransformationsIn3D.exe
+C:\Users\User\Desktop\Lab7-master\AffineTransformationsIn3D\obj\Debug\AffineTransformationsIn3D.pdb

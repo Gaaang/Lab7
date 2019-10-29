@@ -130,6 +130,41 @@ namespace AffineTransformationsIn3D
             CurrentDrawable = dialog.SelectedModel;
         }
 
+        private void SaveFile(object sender, EventArgs e)
+        {
+            if (!(CurrentDrawable is Mesh)) return;
+            var mesh = (Mesh)CurrentDrawable;
+            SaveFileDialog saveDialog = new SaveFileDialog();
+            saveDialog.Filter = "Object Files(*.obj)|*.obj|Text files (*.txt)|*.txt|All files (*.*)|*.*";
+            if (saveDialog.ShowDialog() == DialogResult.OK)
+            {
+                try
+                {
+                    mesh.Save(saveDialog.FileName);
+                }
+                catch
+                {
+                    DialogResult rezult = MessageBox.Show("Невозможно сохранить файл",
+                    "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+        }
 
+        private void LoadFile(object sender, EventArgs e)
+        {
+            OpenFileDialog openDialog = new OpenFileDialog();
+            openDialog.Filter = "Object Files(*.obj)|*.obj|Text files (*.txt)|*.txt|All files (*.*)|*.*";
+            if (openDialog.ShowDialog() != DialogResult.OK)
+                return;
+            try
+            {
+                CurrentDrawable = new Mesh(openDialog.FileName);
+            }
+            catch
+            {
+                MessageBox.Show("Ошибка при чтении файла",
+                    "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
     }
 }
